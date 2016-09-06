@@ -1,3 +1,74 @@
+body {
+	background: #ffffff
+}
+#primary-header{
+	background-color: #f26904;
+}
+#secondary-header{
+	background-color: #ef761d;
+	width: 100%;
+	height: auto;
+}
+ul.socmed{
+	list-style: none;
+	margin:10px 0 10px 0;
+	float: right;
+}
+li.socmed{
+	display: inline;
+	margin: 0px 10px 0px 10px;
+}
+.socmed a {
+	color: white;
+}
+.border-image{
+	border: 1px solid #888888;
+	padding: 0px !important;
+	margin: 10px 3% 10px 3%;
+	box-shadow: 5px 5px 10px #888888;
+}
+#primary-konten{
+	margin-top: 100px !important;
+}
+#konten{
+/*	border: 1px solid black;
+	padding: 0px !important;
+	margin: 10px 3% 10px 3%;
+	box-shadow: 2px 2px 5px #888888;*/
+}
+#konten img {
+	width: 100%;
+}
+#konten p {
+	text-align: center;
+	padding-bottom: 10px;
+}
+/*---------------------*/
+/*killing bootstrap css*/
+/*---------------------*/
+.navbar-default{
+	background-color: #f26904;
+	margin-bottom: 0px !important;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #f26904;
+    background-color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #f26904;
+    background-color: #ffffff;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #f26904;
+    background-color: #ffffff;
+}
 .kanan{
 text-align: right;
+}
+.open>.dropdown-menu {
+    display: block;
+    z-index: 9001 !important;
 }

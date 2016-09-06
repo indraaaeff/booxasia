@@ -1,4 +1,4 @@
-<title>boox.asia</title>
+<title>Hawk Teknologi Solusi</title>
 <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>asset/css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>asset/css/style.css">
 <div class="container-fluid">

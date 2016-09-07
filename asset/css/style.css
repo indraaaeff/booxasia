@@ -2,12 +2,12 @@ body {
 	background: #ffffff
 }
 #primary-header{
-	background-color: #f26904;
+	background-color: #ff8e28;
 }
 #secondary-header{
 	background-color: #ef761d;
-	width: 100%;
-	height: auto;
+	/*width: 100%;*/
+	/*height: auto;*/
 }
 ul.socmed{
 	list-style: none;
@@ -28,7 +28,7 @@ li.socmed{
 	box-shadow: 5px 5px 10px #888888;
 }
 #primary-konten{
-	margin-top: 100px !important;
+	margin-top: 167px !important;
 }
 #konten{
 /*	border: 1px solid black;
@@ -43,6 +43,18 @@ li.socmed{
 	text-align: center;
 	padding-bottom: 10px;
 }
+#htslogo{
+	color:white;
+	width: auto;
+	height: auto;
+}
+#htslogo img {
+	width: 100%;
+	height: auto;
+}
+#n-bar{
+	top: 45px;
+}
 /*---------------------*/
 /*killing bootstrap css*/
 /*---------------------*/
@@ -54,16 +66,16 @@ li.socmed{
     color: #ffffff;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    color: #f26904;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
-    color: #f26904;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: transparent;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-    color: #f26904;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: transparent;
 }
 .kanan{
 text-align: right;
@@ -71,4 +83,5 @@ text-align: right;
 .open>.dropdown-menu {
     display: block;
     z-index: 9001 !important;
+    top: 85px;
 }
